@@ -1,0 +1,23 @@
+public class Main {
+    public static void main(String[] args) {
+       suma (a:1, b: 2);
+       
+}
+    public static int suma(int a, int b) {
+        int resultado;
+        resultado = a + b;
+        System.out.println("La suma es: " + resultado);
+    }
+    public static void main(String[] args){
+        Coche auto = new Coche();
+        auto.AgregarPuerta();
+    }
+}
+
+class Coche {
+    public int puertas = 4;
+    
+    public void AgregarPuerta () {
+    this.puertas++;
+}
+}
